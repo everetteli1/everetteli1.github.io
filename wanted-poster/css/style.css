@@ -34,7 +34,7 @@ body {
 }
 main {
     background-color:#ddd;
-    background-image:url(images/wrinkled-white-paper-background.jpg);
+    background-image:url(/wanted-poster/images/wrinkled-white-paper-background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     border:1px solid #333;
@@ -77,14 +77,14 @@ h2 {
 h3 {
     font-size: 2rem;
     font-weight: normal;
-    color:black;
+    color:#444;
 }
 
 h4 {
     font-size: 1.5rem;
     letter-spacing: 0.25rem;
     font-weight: normal;
-    padding: 0rem, 0rem, 1.125rem, 0rem;    
+    padding: 0rem 0rem 1.125rem 0rem;    
 }
 
 h5 {
@@ -92,7 +92,7 @@ h5 {
     font-weight: normal;
     color: #fff;
     background-color: #333;
-    margin: 0.25rem, 0rem, 0rem, 0rem;
+    margin: 0.25rem 0rem 0rem 0rem;
     padding: 0.5rem; 
 }
 
@@ -101,16 +101,19 @@ h5 {
 
 
 section {
-    margin: 0.5rem, 0rem, 0rem, 0rem;
+    margin: 0.5rem 0rem 0rem 0rem;
 }
 
 p {
     margin: 1rem, auto;
-    padding: 0rem, 1rem,;
+    padding: 0rem 1rem 0rem 1rem;
     width: 90%;
     text-align: left;
 }
 
+h4 > span {
+    padding: 0rem 0.5rem 0rem 0.5rem; 
+}
 
 /* Image & Figure */
 
